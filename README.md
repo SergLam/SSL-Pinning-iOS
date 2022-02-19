@@ -1,6 +1,6 @@
 # ASSSLPinning
 
-Project is loaded with SSL Pinning Concept in iOS:- 
+Project contains SSL Pinning Concept sample in iOS:
 
 1. Certificate Pinning
 
