@@ -37,7 +37,7 @@ final class SSLPinningManager: NSObject {
         
         let sessionObj = URLSession(configuration: .ephemeral,delegate: self,delegateQueue: nil)
         self.isCertificatePinning = isCertificatePinning
-        var result:String =  ""
+        var result: String = ""
         
         guard let url = URL.init(string: urlString) else {
             fatalError("please add valid url first")
