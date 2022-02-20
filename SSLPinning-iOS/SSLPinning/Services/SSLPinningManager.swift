@@ -39,7 +39,7 @@ final class SSLPinningManager: NSObject {
         self.isCertificatePinning = isCertificatePinning
         var result: String = ""
         
-        guard let url = URL.init(string: urlString) else {
+        guard let url = URL(string: urlString) else {
             fatalError("please add valid url first")
         }
         

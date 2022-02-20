@@ -1,15 +1,15 @@
 //
-//  ViewController.swift
-//  SSlPinning
+//  MainTabBarVC.swift
+//  SSLPinning
 //
-//  Created by Abhimanyu Rathore on 09/02/21.
+//  Created by Serhii Liamtsev on 2/20/22.
 //
 
 import UIKit
 
 // https://www.google.com
-final class ViewController: UIViewController {
-
+final class MainTabBarVC: UITabBarController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -17,7 +17,4 @@ final class ViewController: UIViewController {
             print(response)
         }
     }
-
-
 }
-
